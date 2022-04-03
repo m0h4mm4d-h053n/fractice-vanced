@@ -1,0 +1,141 @@
+/*OVERALL CSS*/
+@font-face {
+  font-family: 'Araboto Normal';
+  src: url('Araboto Normal.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Araboto Normal';
+  background-color: #e9e9e9;
+  color: #1D2331;
+}
+
+/*HEADING*/
+header.head {
+  background-color: #e0e0e0;
+}
+
+header div.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-left: 10px;
+}
+
+.fa-ellipsis-vertical {
+  font-size: 1.2em;
+  margin-right: 15px;
+  opacity: 80%;
+}
+
+/*MAIN PART*/
+div.margin {
+  margin: 20px 10px;
+}
+
+div.vanced {
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.space-between {
+  margin-left: 10px;
+  width: 80%;
+}
+
+.fa-brands {
+  display: inline-block;
+  font-size: 45px;
+}
+
+/*Footer*/
+footer div.first-segment {
+  margin: 20px 10px;
+}
+
+footer div div.flex-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.back {
+  background-color: #f7f7f7;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.fa-mosque,
+.fa-kaaba {
+  font-size: 50px;
+}
+
+footer div.second-segment {
+  margin: 20px 20px 30px 20px;
+}
+
+div.background {
+  background-color: #f7f7f7;
+  padding: 18px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2em;
+  grid-row-gap: 15px;
+}
+
+/*OTHERS*/
+h2 {
+  color: #3872e7;
+  font-size: .7em;
+  letter-spacing: .17em;
+  text-transform: uppercase;
+  margin: 10px 0 0 13px;
+}
+
+h2.negetive-space {
+  margin-left: 3px;
+}
+
+h2.bottom-space {
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+p {
+  opacity: 80%;
+  font-size: .8em;
+  line-height: 1.2em;
+}
+
+.fa-solid, .fa-brands, .fa-mosque, .fa-kaaba{
+  opacity: 90%;
+}
