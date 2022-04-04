@@ -19,6 +19,12 @@ body {
 /*HEADING*/
 header.head {
   background-color: #e0e0e0;
+  padding:5px;
+  position:fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  z-index: 3;
 }
 
 header div.heading {
@@ -41,6 +47,10 @@ header h1 {
 }
 
 /*MAIN PART*/
+main{
+  margin-top: 68px;
+}
+
 div.margin {
   margin: 20px 10px;
 }
